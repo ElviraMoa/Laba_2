@@ -11,3 +11,6 @@ int main() {
 	string line;
 	string search; 
 	cout << "¬ведите слово дл€ поиска: ";
+	cin >> search;
+	stringstream ss;	
+	int cnt = 0;
