@@ -25,6 +25,8 @@ int main() {
 			ss << " count = " << cnt << '\n';
 			cnt = 0;
 		}
-
 	}
+	cout << ss.str();
+	in.close();								   
+	system("pause>>void");
 }
